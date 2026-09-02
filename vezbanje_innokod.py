@@ -15,6 +15,6 @@ def print_results(data):
 # Author (ime, prezime, godina_rodjenja)
 
 with Session(engine) as session:
-    statement = select(Book)
+    statement = select()
     result = session.exec(statement).all()
     print_results(result)
