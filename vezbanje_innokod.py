@@ -2,7 +2,6 @@ from knjiga_app_2 import Author, Book, engine
 from sqlmodel import select, func, Session, select
 from sqlalchemy import desc
 
-
 def print_results(data):
     if isinstance(data, list):
         for item in data:
@@ -11,12 +10,11 @@ def print_results(data):
         print(data)
     print("-----------------------------------")
 
-#### OVO IZNAD SE NE MENJA
-#### MI RADIMO S OVIM ISPOD (s 20tom linijom)
+##################
+# Book (naslov, zanr, broj_strana, ocena, dostupna)
+# Author (ime, prezime, godina_rodjenja)
 
 with Session(engine) as session:
-    # u statement (linija ispod) stavljamo ime Tabele iz koje selektujemo podatke 
-    # i filtere ako su nam potrebi
-    statement = select() ### menjas samo ovu liniju
+    statement = select(Book)
     result = session.exec(statement).all()
     print_results(result)
