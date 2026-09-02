@@ -1,0 +1,50 @@
+Get all authors
+Get all books
+Find an author by ID
+Find a book by title
+Find books with rating >= 4.5
+Find available books
+Find unavailable books
+Find books with more than 400 pages
+Find fantasy books
+Find authors born before 1900
+Find available books with rating >= 4.5
+Find books between 200 and 400 pages
+Find highly rated fantasy books
+Find books by George Orwell
+Order books by rating, highest first
+Order books by page count
+Order authors by year of birth
+Get the top 5 highest-rated books
+Find titles containing "The"
+Find authors whose last name starts with "S"
+Find titles containing "King"
+Get books together with their authors
+Find books written by Jane Austen
+Find books written by Mark Twain
+Find highly rated books with author information
+Count all books
+Count all authors
+Calculate the average book rating
+Find the maximum number of pages
+Find the minimum number of pages
+Count books per author
+Calculate average rating per author
+Count books per genre
+Calculate average rating per genre
+Find authors with at least 5 books
+Find genres with at least 3 books
+Find books rated above the overall average
+Find books with more pages than the average book
+Find authors with at least one book rated >= 4.8
+Find the best-rated book for each author
+Find authors with average rating >= 4.5
+Find available books rated above average
+Find authors with a book longer than 500 pages
+Get the top 10 books with author information
+Count available books grouped by genre
+Find the author with the highest average rating
+Find the genre with the highest average rating
+Find authors whose average rating is above the overall average
+Find the longest available book
+Find authors with a highly rated book and an unavailable book
