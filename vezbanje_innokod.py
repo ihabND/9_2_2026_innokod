@@ -16,6 +16,14 @@ def print_results(data):
 # Author (ime, prezime, godina_rodjenja)
 
 with Session(engine) as session:
-    statement = select()
+    """statement = select(Author).where(Author.id == 4)
+    result = session.exec(statement).all()
+    print_results(result)"""
+
+    statement = select(Book).where(Book.naslov.contains("King"), Book.broj_strana > 300)
     result = session.exec(statement).all()
     print_results(result)
+
+
+
+
