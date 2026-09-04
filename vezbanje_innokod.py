@@ -15,6 +15,14 @@ def print_results(data):
 # Book (naslov, zanr, broj_strana, ocena, dostupna)
 # Author (ime, prezime, godina_rodjenja)
 
+# select() # biras tabelu
+# .where() # filtriras po uslovima za kolone
+# .limit() # koliko rezultata se vrace
+# .order_by() # sortiras dobijene rezultate 
+# desc() # descedning order
+# .contains() # pronadji vrednosti koje sadrze nesto
+
+# CURRENT QUERY: Find titles containing "King"
 with Session(engine) as session:
     """statement = select(Author).where(Author.id == 4)
     result = session.exec(statement).all()
