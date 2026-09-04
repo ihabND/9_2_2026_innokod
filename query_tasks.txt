@@ -6,13 +6,14 @@ Find books with rating >= 4.5
 Find available books
 Find unavailable books
 Find books with more than 400 pages
-Find fantasy books
+Find Fantasy books
 Find authors born before 1900
+##########################
 Find available books with rating >= 4.5
 Find books between 200 and 400 pages
 Find highly rated fantasy books
-Find books by George Orwell
 Order books by rating, highest first
+Find books by George Orwell
 Order books by page count
 Order authors by year of birth
 Get the top 5 highest-rated books
